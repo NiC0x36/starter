@@ -1,0 +1,8 @@
+{
+  "name": "Starter",
+  "short_name": "Starter",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "Webapp Starter Package with Parcel JS."
+}

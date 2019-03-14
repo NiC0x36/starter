@@ -1,0 +1,12 @@
+/* 
+ * elements/font
+ ? default font styling
+*/
+
+body {
+  color: $clr-black;
+  font-family: $font-default;
+  font-weight: 400;
+  @include f(16px, 20px);
+  line-height: 1.5;
+}

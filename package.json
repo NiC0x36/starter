@@ -1,0 +1,22 @@
+{
+  "name": "starter",
+  "version": "0.0.1",
+  "description": "Webapp Starter Package with Parcel JS.",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf .cache dist public",
+    "dev": "parcel ./src/index.html",
+    "build": "rm -rf public && parcel build ./src/index.html -d public --no-source-maps --no-content-hash --public-url ./"
+  },
+  "author": "Selim Imoberdorf",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.1",
+    "parcel-plugin-purgecss": "^2.1.0",
+    "sass": "^1.17.2"
+  },
+  "dependencies": {
+    "include-media": "^1.4.9",
+    "lazysizes": "^4.1.6"
+  }
+}

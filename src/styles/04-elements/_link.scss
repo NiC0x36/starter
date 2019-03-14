@@ -1,0 +1,24 @@
+/* 
+ * elements/link
+ ? default styling for link
+*/
+
+a,
+a:active,
+a:focus,
+a:hover {
+  outline: none;
+  text-decoration: none;
+}
+
+a {
+  color: $clr-black;
+  text-decoration: underline;
+}
+
+a:active,
+a:focus,
+a:hover {
+  color: lighten($clr-black, $amount: 4);
+  text-decoration: none;
+}
